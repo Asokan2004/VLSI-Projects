@@ -1,4 +1,4 @@
-// File: sr_flip_flop.v
+
 module sr_flip_flop (
     input wire clk,
     input wire rst,     // asynchronous active-high reset
