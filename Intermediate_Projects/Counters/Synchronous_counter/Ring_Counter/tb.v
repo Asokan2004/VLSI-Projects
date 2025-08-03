@@ -7,7 +7,7 @@ module tb_ring_counter;
   wire [2:0] q;
 
   // Instantiate the DUT
-  async_down_counter dut (
+  ring_counter dut (
     .clk(clk),
     .rst(rst),
     .q(q)
