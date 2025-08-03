@@ -4,7 +4,7 @@ module ring_counter (
     output reg [3:0] q
 );
 
-    always @(posedge clk or posedge rst) begin
+    always @(posedge clk) begin
         if (rst)
             q <= 4'b0001;           
         else
